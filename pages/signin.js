@@ -39,7 +39,7 @@ export default function SignIn({ providers }) {
                   router.push("/");
                 }}
               >
-                TEST
+                TEST2
               </button>
             </div>
           </div>
