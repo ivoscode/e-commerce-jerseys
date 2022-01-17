@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 const data = {
   email: "ilegzdins@yahoo.com",
   isAdmin: true,
-  name: "Ivo Legzdins",
+  name: "Test User",
   profileImage:
     "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=10159224341674807&height=50&width=50&ext=1645009279&hash=AeTsuhb8CqMdt2i-5iI",
   status: "allowed",
@@ -21,6 +21,7 @@ export default function SignIn({ providers }) {
         {Object.values(providers).map((provider) => (
           <div key={provider.name}>
             <button
+              disabled
               className=" flex items-center bg-fb text-white p-3 rounded-lg font-semibold text-lg"
               onClick={() => signIn(provider.id)}
             >
@@ -39,7 +40,7 @@ export default function SignIn({ providers }) {
                   router.push("/");
                 }}
               >
-                TEST2
+                TEST
               </button>
             </div>
           </div>
