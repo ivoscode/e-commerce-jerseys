@@ -1,0 +1,75 @@
+[
+  {
+    "yuId": 104575213,
+    "name": "21-22 Tijuana Pink",
+    "category": [
+      { "name": "Mexico club", "value": "mexico club" },
+      { "name": "New Jerseys", "value": "new jerseys" }
+    ],
+    "image": [
+      { "src": "http://photo.yupoo.com/jayjersey11111/de2a39cc/86c05f9b.jpg" },
+      { "src": "http://photo.yupoo.com/jayjersey11111/0bd8e758/19f19de0.jpg" }
+    ],
+    "updatedAt": "2021-10-22T13:56:23.000Z"
+  },
+  {
+    "yuId": 104725590,
+    "name": "21/22 Chivas Guadalajara  Pink",
+    "category": [
+      { "name": "Mexico club", "value": "mexico club" },
+      { "name": "New Jerseys", "value": "new jerseys" }
+    ],
+    "image": [
+      { "src": "http://photo.yupoo.com/jayjersey11111/5360ece6/a793a1ab.jpg" },
+      { "src": "http://photo.yupoo.com/jayjersey11111/1d039593/bf7431d6.jpg" }
+    ],
+    "updatedAt": "2021-10-25T14:08:33.000Z"
+  },
+  {
+    "yuId": 104723811,
+    "name": "21-22 Monterrey Away Kit and kids",
+    "category": [
+      { "name": "Adult kit", "value": "adult kit" },
+      { "name": "Kids kit", "value": "kids kit" }
+    ],
+    "image": [
+      { "src": "http://photo.yupoo.com/jayjersey11111/f8c81497/bc2e99ee.jpg" },
+      { "src": "http://photo.yupoo.com/jayjersey11111/e7820008/cef76524.jpg" }
+    ],
+    "updatedAt": "2021-10-25T13:26:33.000Z"
+  },
+  {
+    "yuId": 104575098,
+    "name": "21-22 Santos Laguna pink",
+    "category": [
+      { "name": "Mexico club", "value": "mexico club" },
+      { "name": "New Jerseys", "value": "new jerseys" }
+    ],
+    "image": [
+      { "src": "http://photo.yupoo.com/jayjersey11111/e031ece0/7d1e05c8.jpg" },
+      { "src": "http://photo.yupoo.com/jayjersey11111/1f7ef0ee/7835730e.jpg" }
+    ],
+    "updatedAt": "2021-10-22T13:53:33.000Z"
+  },
+  {
+    "yuId": 104576132,
+    "name": "21/22 Porto third Jersey",
+    "category": [
+      { "name": "Top quality other clubs", "value": "top quality other clubs" }
+    ],
+    "image": [
+      { "src": "http://photo.yupoo.com/jayjersey11111/0fe45cc5/f34673d8.png" },
+      { "src": "http://photo.yupoo.com/jayjersey11111/79adc371/d0df3ba3.png" }
+    ],
+    "updatedAt": "2021-10-22T14:23:25.000Z"
+  },
+  {
+    "yuId": 104724248,
+    "name": "2021 Chile Home Kit",
+    "category": [{ "name": "Adult kit", "value": "adult kit" }],
+    "image": [
+      { "src": "http://photo.yupoo.com/jayjersey11111/1adeb652/8cf03abf.jpg" }
+    ],
+    "updatedAt": "2021-10-25T13:35:17.000Z"
+  }
+]

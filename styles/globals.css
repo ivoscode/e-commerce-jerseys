@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-bg-color: #f9fafb; /* gray 50 */
+  --main-text-color: #374151; /* gray 700 */
+}
+
+.bagCount {
+  @apply border  bg-black text-white absolute rounded-full right-4 top-3 flex items-center justify-center font-bold text-xs;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+  min-width: 1.25rem;
+  min-height: 1.25rem;
+}
+/*-----------pagination------------*/
+
+.paginationBttns {
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  justify-content: center;
+  @apply flex mt-20;
+}
+.paginationBttns li {
+  @apply hidden xsm:block;
+}
+.paginationBttns li:last-child {
+  @apply block;
+}
+.paginationBttns li:first-child {
+  @apply block;
+}
+#__next > div > main > div > ul > li.paginationActive {
+  @apply block;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #374151;
+  color: #374151;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #374151;
+}
+.break {
+  @apply hidden xsm:block;
+}
+.paginationActive a {
+  color: white;
+  background-color: #374151;
+}
+
+/* .paginationDisabled a {
+  color: grey;
+  background-color: grey;
+} */
+
+/* bouncing balls */
+.dot-rolling {
+  position: relative;
+  height: 16px;
+  font-size: 16px;
+}
+
+.dot-rolling::before {
+  content: "⚽";
+  display: inline-block;
+  position: relative;
+  transform: translateX(-25px);
+  animation: dotRolling 4.5s infinite;
+}
+
+@keyframes dotRolling {
+  0% {
+    content: "⚽";
+    transform: translateX(-25px) rotateZ(0deg);
+  }
+  16.667% {
+    content: "⚽";
+    transform: translateX(25px) rotateZ(720deg);
+  }
+  33.333% {
+    content: "⚽";
+    transform: translateX(-25px) rotateZ(0deg);
+  }
+  34.333% {
+    content: "🏀";
+    transform: translateX(-25px) rotateZ(0deg);
+  }
+  50% {
+    content: "🏀";
+    transform: translateX(25px) rotateZ(720deg);
+  }
+  66.667% {
+    content: "🏀";
+    transform: translateX(-25px) rotateZ(0deg);
+  }
+  67.667% {
+    content: "🏐";
+    transform: translateX(-25px) rotateZ(0deg);
+  }
+  83.333% {
+    content: "🏐";
+    transform: translateX(25px) rotateZ(720deg);
+  }
+  100% {
+    content: "🏐";
+    transform: translateX(-25px) rotateZ(0deg);
+  }
+}
